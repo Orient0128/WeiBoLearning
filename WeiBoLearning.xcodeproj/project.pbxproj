@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F887CDA11D64B64A002EED68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F887CDA01D64B64A002EED68 /* main.m */; };
+		F887CDA41D64B64A002EED68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F887CDA31D64B64A002EED68 /* AppDelegate.m */; };
+		F887CDAC1D64B64A002EED68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F887CDAB1D64B64A002EED68 /* Assets.xcassets */; };
+		F887CDBA1D64B64A002EED68 /* WeiBoLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F887CDB91D64B64A002EED68 /* WeiBoLearningTests.m */; };
+		F887CDC51D64B64A002EED68 /* WeiBoLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F887CDC41D64B64A002EED68 /* WeiBoLearningUITests.m */; };
+		F887CDD51D64BD06002EED68 /* info in Resources */ = {isa = PBXBuildFile; fileRef = F887CDD41D64BD06002EED68 /* info */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F887CDB61D64B64A002EED68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F887CD941D64B64A002EED68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F887CD9B1D64B64A002EED68;
+			remoteInfo = WeiBoLearning;
+		};
+		F887CDC11D64B64A002EED68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F887CD941D64B64A002EED68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F887CD9B1D64B64A002EED68;
+			remoteInfo = WeiBoLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F887CD9C1D64B64A002EED68 /* WeiBoLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBoLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887CDA01D64B64A002EED68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F887CDA21D64B64A002EED68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F887CDA31D64B64A002EED68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F887CDAB1D64B64A002EED68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F887CDB01D64B64A002EED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F887CDB51D64B64A002EED68 /* WeiBoLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887CDB91D64B64A002EED68 /* WeiBoLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoLearningTests.m; sourceTree = "<group>"; };
+		F887CDBB1D64B64A002EED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F887CDC01D64B64A002EED68 /* WeiBoLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887CDC41D64B64A002EED68 /* WeiBoLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoLearningUITests.m; sourceTree = "<group>"; };
+		F887CDC61D64B64A002EED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F887CDD41D64BD06002EED68 /* info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = info; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F887CD991D64B64A002EED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDB21D64B64A002EED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDBD1D64B64A002EED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F887CD931D64B64A002EED68 = {
+			isa = PBXGroup;
+			children = (
+				F887CDD41D64BD06002EED68 /* info */,
+				F887CD9E1D64B64A002EED68 /* WeiBoLearning */,
+				F887CDB81D64B64A002EED68 /* WeiBoLearningTests */,
+				F887CDC31D64B64A002EED68 /* WeiBoLearningUITests */,
+				F887CD9D1D64B64A002EED68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F887CD9D1D64B64A002EED68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F887CD9C1D64B64A002EED68 /* WeiBoLearning.app */,
+				F887CDB51D64B64A002EED68 /* WeiBoLearningTests.xctest */,
+				F887CDC01D64B64A002EED68 /* WeiBoLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F887CD9E1D64B64A002EED68 /* WeiBoLearning */ = {
+			isa = PBXGroup;
+			children = (
+				F887CDA21D64B64A002EED68 /* AppDelegate.h */,
+				F887CDA31D64B64A002EED68 /* AppDelegate.m */,
+				F887CDAB1D64B64A002EED68 /* Assets.xcassets */,
+				F887CDB01D64B64A002EED68 /* Info.plist */,
+				F887CD9F1D64B64A002EED68 /* Supporting Files */,
+			);
+			path = WeiBoLearning;
+			sourceTree = "<group>";
+		};
+		F887CD9F1D64B64A002EED68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F887CDA01D64B64A002EED68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F887CDB81D64B64A002EED68 /* WeiBoLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				F887CDB91D64B64A002EED68 /* WeiBoLearningTests.m */,
+				F887CDBB1D64B64A002EED68 /* Info.plist */,
+			);
+			path = WeiBoLearningTests;
+			sourceTree = "<group>";
+		};
+		F887CDC31D64B64A002EED68 /* WeiBoLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F887CDC41D64B64A002EED68 /* WeiBoLearningUITests.m */,
+				F887CDC61D64B64A002EED68 /* Info.plist */,
+			);
+			path = WeiBoLearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F887CD9B1D64B64A002EED68 /* WeiBoLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F887CDC91D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearning" */;
+			buildPhases = (
+				F887CD981D64B64A002EED68 /* Sources */,
+				F887CD991D64B64A002EED68 /* Frameworks */,
+				F887CD9A1D64B64A002EED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiBoLearning;
+			productName = WeiBoLearning;
+			productReference = F887CD9C1D64B64A002EED68 /* WeiBoLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F887CDB41D64B64A002EED68 /* WeiBoLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F887CDCC1D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearningTests" */;
+			buildPhases = (
+				F887CDB11D64B64A002EED68 /* Sources */,
+				F887CDB21D64B64A002EED68 /* Frameworks */,
+				F887CDB31D64B64A002EED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F887CDB71D64B64A002EED68 /* PBXTargetDependency */,
+			);
+			name = WeiBoLearningTests;
+			productName = WeiBoLearningTests;
+			productReference = F887CDB51D64B64A002EED68 /* WeiBoLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F887CDBF1D64B64A002EED68 /* WeiBoLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F887CDCF1D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearningUITests" */;
+			buildPhases = (
+				F887CDBC1D64B64A002EED68 /* Sources */,
+				F887CDBD1D64B64A002EED68 /* Frameworks */,
+				F887CDBE1D64B64A002EED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F887CDC21D64B64A002EED68 /* PBXTargetDependency */,
+			);
+			name = WeiBoLearningUITests;
+			productName = WeiBoLearningUITests;
+			productReference = F887CDC01D64B64A002EED68 /* WeiBoLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F887CD941D64B64A002EED68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Orient;
+				TargetAttributes = {
+					F887CD9B1D64B64A002EED68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JP69ENXV8L;
+					};
+					F887CDB41D64B64A002EED68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JP69ENXV8L;
+						TestTargetID = F887CD9B1D64B64A002EED68;
+					};
+					F887CDBF1D64B64A002EED68 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JP69ENXV8L;
+						TestTargetID = F887CD9B1D64B64A002EED68;
+					};
+				};
+			};
+			buildConfigurationList = F887CD971D64B64A002EED68 /* Build configuration list for PBXProject "WeiBoLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F887CD931D64B64A002EED68;
+			productRefGroup = F887CD9D1D64B64A002EED68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F887CD9B1D64B64A002EED68 /* WeiBoLearning */,
+				F887CDB41D64B64A002EED68 /* WeiBoLearningTests */,
+				F887CDBF1D64B64A002EED68 /* WeiBoLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F887CD9A1D64B64A002EED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887CDD51D64BD06002EED68 /* info in Resources */,
+				F887CDAC1D64B64A002EED68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDB31D64B64A002EED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDBE1D64B64A002EED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F887CD981D64B64A002EED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887CDA41D64B64A002EED68 /* AppDelegate.m in Sources */,
+				F887CDA11D64B64A002EED68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDB11D64B64A002EED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887CDBA1D64B64A002EED68 /* WeiBoLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F887CDBC1D64B64A002EED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F887CDC51D64B64A002EED68 /* WeiBoLearningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F887CDB71D64B64A002EED68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F887CD9B1D64B64A002EED68 /* WeiBoLearning */;
+			targetProxy = F887CDB61D64B64A002EED68 /* PBXContainerItemProxy */;
+		};
+		F887CDC21D64B64A002EED68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F887CD9B1D64B64A002EED68 /* WeiBoLearning */;
+			targetProxy = F887CDC11D64B64A002EED68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F887CDC71D64B64A002EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F887CDC81D64B64A002EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F887CDCA1D64B64A002EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = WeiBoLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F887CDCB1D64B64A002EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = WeiBoLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F887CDCD1D64B64A002EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiBoLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiBoLearning.app/WeiBoLearning";
+			};
+			name = Debug;
+		};
+		F887CDCE1D64B64A002EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiBoLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiBoLearning.app/WeiBoLearning";
+			};
+			name = Release;
+		};
+		F887CDD01D64B64A002EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiBoLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiBoLearning;
+			};
+			name = Debug;
+		};
+		F887CDD11D64B64A002EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeiBoLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orient.WeiBoLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeiBoLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F887CD971D64B64A002EED68 /* Build configuration list for PBXProject "WeiBoLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887CDC71D64B64A002EED68 /* Debug */,
+				F887CDC81D64B64A002EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F887CDC91D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887CDCA1D64B64A002EED68 /* Debug */,
+				F887CDCB1D64B64A002EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F887CDCC1D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887CDCD1D64B64A002EED68 /* Debug */,
+				F887CDCE1D64B64A002EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F887CDCF1D64B64A002EED68 /* Build configuration list for PBXNativeTarget "WeiBoLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F887CDD01D64B64A002EED68 /* Debug */,
+				F887CDD11D64B64A002EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F887CD941D64B64A002EED68 /* Project object */;
+}
