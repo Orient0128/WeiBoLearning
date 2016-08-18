@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "OWBTabBarController.h"
+//封装思想：项目中有相同的功能，抽取一个类，封装好。如何封装，自己的事情，全交给自己管理
+//抽方法：一般一个功能就抽一个方法
+
+
+
 //程序遇到模拟器尺寸不对，找到启动图片，默认的模拟器尺寸由启动图片决定。
 //LaunchScreen:代替之前的启动图片
 //好处：可以展示更多的东西，可以只需要找出一个大尺寸图片
@@ -16,42 +22,24 @@
 
 @implementation AppDelegate
 
+//uitabbarcontroller控制器的view在一创建控制器的时候就会加载view
+//uiviewcontroller的view才是懒加载
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    OWBTabBarController *tabBarVc = [[OWBTabBarController alloc] init];
     
     
-    
-    //创建tabBarVc
-    UITabBarController *tabBarVc = [[UITabBarController alloc] init];
-    
-    tabBarVc.view.backgroundColor = [UIColor redColor];
-    
-    //管理子控制器
-    UIViewController *home = [[UIViewController alloc] init];
-    home.view.backgroundColor = [UIColor greenColor];
-    [tabBarVc addChildViewController:home];
-    
-    UIViewController *message = [[UIViewController alloc] init];
-    home.view.backgroundColor = [UIColor blueColor];
-    [tabBarVc addChildViewController:message];
-
-    UIViewController *discover = [[UIViewController alloc] init];
-    home.view.backgroundColor = [UIColor purpleColor];
-    [tabBarVc addChildViewController:discover];
-    
-    UIViewController *profile = [[UIViewController alloc] init];
-    home.view.backgroundColor = [UIColor lightGrayColor];
-    [tabBarVc addChildViewController:profile];
-    
-    //设置窗口的根控制器
+        //设置窗口的根控制器
     self.window.rootViewController = tabBarVc;
     
     [self.window makeKeyAndVisible];
     
-    
+    //makeKeyAndVisible底层实现：
+    //1.self.window.hidden = NO;
+    //2.application.keywindow = self.window;
     
     return YES;
 }

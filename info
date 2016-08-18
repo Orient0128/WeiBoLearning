@@ -1,3 +1,5 @@
 Device Orientation :旋转
 Status Bar :状态栏
 启动图片的优先级 < LaunchScreen.storyboard
+给项目的类加前缀：class prefix.
+在swift中不需要前缀，因为swift有命名空间区分类
