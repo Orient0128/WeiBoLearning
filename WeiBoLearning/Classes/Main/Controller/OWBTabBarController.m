@@ -8,6 +8,9 @@
 
 #import "OWBTabBarController.h"
 #import "UIImage+image.h"
+#import "OWBTabBar.h"
+
+#import "OWBNavigationController.h"
 
 @interface OWBTabBarController ()
 
@@ -49,6 +52,14 @@
     
     [self setUpAllChildViewController];
     
+    //自定义tabBar
+    OWBTabBar *tabBar = [[OWBTabBar alloc] initWithFrame:self.tabBar.frame];
+    
+    //P1:属性; p2:写值。利用KVC把readonly的属性改变
+    [self setValue:tabBar forKeyPath:@"tabBar"];
+
+    //修改系统tabBar上的按钮位置
+    
     
 
     
@@ -62,7 +73,6 @@
     vc.tabBarItem.image = image;
     
     //右上角标
-    //message.tabBarItem.badgeValue = @"10";
 
     vc.tabBarItem.selectedImage = selImage;
     
@@ -84,6 +94,7 @@
     //message
     UIViewController *message = [[UIViewController alloc] init];
     message.view.backgroundColor = [UIColor blueColor];
+    message.tabBarItem.badgeValue = @"10";
     
     [self setUpOneChildViewContriller:message image:[UIImage imageNamed:@"NewsIcon"] selImage:[UIImage imageWithOriginalName:@"NewsIconSelect"] title:@"消息"];
     
